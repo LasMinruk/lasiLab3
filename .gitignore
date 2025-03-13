@@ -1,4 +1,4 @@
-# Logs
+git commit -m "Implemented file reading"# Logs
 logs
 *.log
 npm-debug.log*

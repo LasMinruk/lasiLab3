@@ -1,6 +1,6 @@
-const fs = require('fs');
+const fs = require('fs');  // Add this line at the beginning
 
-fs.readFile('file.txt', 'utf8', (err, data) => {
+fs.writeFile('file.txt', 'Hello World from Node.js!', (err) => {
     if (err) throw err;
-    console.log(data);
+    console.log('File written successfully!');
 });
